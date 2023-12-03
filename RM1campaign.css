@@ -4,10 +4,9 @@ body {
   letter-spacing: 0.15em;
   background-image: url('background.jpg');
   background-size: 50%;
-  margin: 0; /* Remove default margin */
+  margin: 0; 
 }
 
-/* Styles for the container */
 .container {
   display: flex;
   flex-direction: column;
@@ -15,7 +14,6 @@ body {
   text-align: center;
 }
 
-/* Styles for #RM1Campaign */
 #RM1Campaign {
   color: black;
   font-size: 70px;
@@ -26,31 +24,29 @@ body {
   margin-bottom: 50px;
 }
 
-/* Styles for the IIUM logo */
 img[alt="IIUM logo"] {
   max-width: 100%;
   height: 100px;
   margin: 20px 0;
   margin-bottom: 0%;
 }
-/* Styles for the image with alt attribute "Donation" */
+
 img[alt="Donation"] {
   max-width: 100%;
   height: 600px;
-  margin: 20px auto; /* Center the image horizontally */
+  margin: 20px auto; 
   margin-bottom: 0%;
-  border: 1px solid #ccc; /* Add a border for styling */
-  display: block; /* Make the image a block element to center it properly */
+  border: 1px solid #ccc; 
+  display: block; 
 }
 
-/* Styles for the image with alt attribute "Helping hand" */
 img[alt="Helping"] {
   max-width: 100%;
   height: 715px;
-  margin: 20px auto; /* Center the image horizontally */
-  border-radius: 8px; /* Add border-radius for rounded corners */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
-  display: block; /* Make the image a block element to center it properly */
+  margin: 20px auto; 
+  border-radius: 8px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: block; 
 }
 header h4 {
   font-size: 180%;
@@ -58,12 +54,12 @@ header h4 {
   letter-spacing: 0.15em;
   background-image: url('sky.jpg');
   background-size: cover;
-  color: white; /* Change this color to your desired font color */
-  justify-content: center; /* Center the content horizontally */
+  color: white; 
+  justify-content: center; 
   align-items: center;
   text-align: center;
-  padding: 50px; /* Center the content vertically */
-  margin: 0; /* Remove default margin */
+  padding: 50px; 
+  margin: 0;
 }
 h3 {
   color: black;
@@ -116,9 +112,9 @@ font-weight: bold;
 font-size: 17px;
 }
 .perpetual {
-  font-size: 55px; /* Adjust the font size for the word "PERPETUAL" */
-  font-weight: bold; /* Optionally, make it bold */
-  color: brown; /* Optionally, set a specific color */
+  font-size: 55px; 
+  font-weight: bold; 
+  color: brown; 
 }
 form {
   max-width: 800px;
