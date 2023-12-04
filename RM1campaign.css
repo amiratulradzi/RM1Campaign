@@ -1,0 +1,170 @@
+body {
+  font-size: 80%;
+  font-family:'Nunito, sans-serif';
+  letter-spacing: 0.15em;
+  background-image: url('background.jpg');
+  background-size: 50%;
+  margin: 0; 
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#RM1Campaign {
+  color: black;
+  font-size: 60px;
+  border-radius: 50px;
+  padding: 10px;
+  background-color: rgb(207, 232,220);
+  margin: 0;
+  margin-bottom: 50px;
+}
+
+img[alt="IIUM logo"] {
+  max-width: 100%;
+  height: 170px;
+  margin: 20px 0;
+  margin-bottom: 1%;
+}
+
+img[alt="Donation"] {
+  max-width: 100%;
+  height: 450px;
+  margin: 20px auto; 
+  margin-bottom: 0%;
+  border: 1px solid #ccc; 
+  display: block; 
+}
+
+
+img[alt="Helping"] {
+  max-width: 100%;
+  height: 540px;
+  margin: 20px auto; 
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  display: block; 
+}
+header h4 {
+  font-size: 150%;
+  font-family:'Nunito, sans-serif';
+  letter-spacing: 0.15em;
+  background-image: url('sky.jpg');
+  background-size: cover;
+  color: white; 
+  justify-content: center; 
+  align-items: center;
+  text-align: center;
+  padding: 50px; 
+  margin: 0; 
+}
+h3 {
+  color: black;
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 20px;
+  align-items: center;
+  text-align: center;
+}
+h4 {
+  font-size: 13px;
+  color: black;
+  line-height: 1.5;
+}
+footer{
+  border-radius: 5px;
+  background-color: lightgray;
+  font-size: 25%;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.15em;
+  align-items: center;
+  text-align: center;
+}
+
+.side {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.side h3 {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.side img[alt="Donation"] {
+  grid-column: 1;
+  grid-row: 1;
+}
+.side img[alt="Helping"] {
+  grid-column: 1;
+  grid-row: 2;
+}
+.form {
+  grid-column: 2;
+  grid-row: 2;
+}
+.contact {
+font-weight: bold; 
+font-size: 17px;
+}
+.perpetual {
+  font-size: 45px; 
+  font-weight: bold; 
+  color: brown; 
+}
+form {
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: whitesmoke;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+input:invalid {
+  border: 1px solid red;
+}
+
+input:valid {
+  border: 1px solid #ccc;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
